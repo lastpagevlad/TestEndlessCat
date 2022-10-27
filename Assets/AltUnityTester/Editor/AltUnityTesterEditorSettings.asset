@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073b5878cbef2364cb928faafba64ca5, type: 3}
+  m_Name: AltUnityTesterEditorSettings
+  m_EditorClassIdentifier: 
+  appendToName: 0
+  AdbPath: /usr/local/bin/adb
+  IProxyPath: /usr/local/bin/iproxy
+  XcrunPath: /usr/bin/xcrun
+  MyTests:
+  - _selected: 0
+    _testName: C:/Users/Vladosek/Documents/TestWork/TestWork/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestAssembly
+    _parentName: 
+    _testCaseCount: 7
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: GameMove+GameMovement
+    _status: -1
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: C:/Users/Vladosek/Documents/TestWork/TestWork/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _testCaseCount: 4
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: GameMove+GameMovement.CatDiesBarrierNotAvoid
+    _status: 0
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: GameMove+GameMovement
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: GameMove+GameMovement.GameCanPauseAndResume
+    _status: -1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: GameMove+GameMovement
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 'Altom.AltUnityDriver.WaitTimeOutException : Element //Game/PauseMenu/Text
+      not loaded after 2 seconds'
+    _testStackTrace: "  at Altom.AltUnityDriver.Commands.AltUnityWaitForObject.Execute
+      () [0x00071] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\AltUnityTester\\AltUnityDriver\\Commands\\FindObjects\\AltUnityWaitForObject.cs:45
+      \r\n  at Altom.AltUnityDriver.AltUnityDriver.WaitForObject (Altom.AltUnityDriver.By
+      by, System.String value, Altom.AltUnityDriver.By cameraBy, System.String cameraValue,
+      System.Boolean enabled, System.Double timeout, System.Double interval) [0x00000]
+      in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\AltUnityTester\\AltUnityDriver\\AltUnityDriver.cs:434
+      \r\n  at Tests.setTests.setPausePlay.get_Title () [0x00000] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\SetTests\\setPausePlay.cs:13
+      \r\n  at Tests.setTests.setPausePlay.IsDisplayed () [0x00000] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\SetTests\\setPausePlay.cs:17
+      \r\n  at GameMove+GameMovement.GameCanPauseAndResume () [0x0000b] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\VoidTests\\GameMove.cs:38
+      \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 "
+    _testDuration: 2.3615259
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: GameMove+GameMovement.GameCanPauseAndStop
+    _status: -1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: GameMove+GameMovement
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 'Altom.AltUnityDriver.WaitTimeOutException : Element //Game/PauseMenu/Exit
+      not loaded after 2 seconds'
+    _testStackTrace: "  at Altom.AltUnityDriver.Commands.AltUnityWaitForObject.Execute
+      () [0x00071] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\AltUnityTester\\AltUnityDriver\\Commands\\FindObjects\\AltUnityWaitForObject.cs:45
+      \r\n  at Altom.AltUnityDriver.AltUnityDriver.WaitForObject (Altom.AltUnityDriver.By
+      by, System.String value, Altom.AltUnityDriver.By cameraBy, System.String cameraValue,
+      System.Boolean enabled, System.Double timeout, System.Double interval) [0x00000]
+      in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\AltUnityTester\\AltUnityDriver\\AltUnityDriver.cs:434
+      \r\n  at Tests.setTests.setPausePlay.get_MainMenuButton () [0x00000] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\SetTests\\setPausePlay.cs:12
+      \r\n  at Tests.setTests.setPausePlay.PressMainMenu () [0x00000] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\SetTests\\setPausePlay.cs:27
+      \r\n  at GameMove+GameMovement.GameCanPauseAndStop () [0x0000b] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\VoidTests\\GameMove.cs:46
+      \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 "
+    _testDuration: 4.5654321
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: GameMove+GameMovement.GameRunCorrectly
+    _status: -1
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: GameMove+GameMovement
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 'Altom.AltUnityDriver.WaitTimeOutException : Element //UICamera/Loadout/StartButton
+      not loaded after 10 seconds'
+    _testStackTrace: "  at Altom.AltUnityDriver.Commands.AltUnityWaitForObject.Execute
+      () [0x00071] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\AltUnityTester\\AltUnityDriver\\Commands\\FindObjects\\AltUnityWaitForObject.cs:45
+      \r\n  at Altom.AltUnityDriver.AltUnityDriver.WaitForObject (Altom.AltUnityDriver.By
+      by, System.String value, Altom.AltUnityDriver.By cameraBy, System.String cameraValue,
+      System.Boolean enabled, System.Double timeout, System.Double interval) [0x00000]
+      in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\AltUnityTester\\AltUnityDriver\\AltUnityDriver.cs:434
+      \r\n  at Tests.setTests.setMainMenu.get_RunButton () [0x00000] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\SetTests\\setMainMenu.cs:19
+      \r\n  at Tests.setTests.setMainMenu.PressRun () [0x00000] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\SetTests\\setMainMenu.cs:30
+      \r\n  at GameMove+GameMovement.GameRunCorrectly () [0x00000] in C:\\Users\\Vladosek\\Documents\\TestWork\\TestWork\\Assets\\Editor\\Tests\\VoidTests\\GameMove.cs:31
+      \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 "
+    _testDuration: 12.4303092
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: MainMenu+MainMenuTests
+    _status: 1
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: C:/Users/Vladosek/Documents/TestWork/TestWork/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: MainMenu+MainMenuTests.CorrectMainMenuVoid
+    _status: 0
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: MainMenu+MainMenuTests
+    _testCaseCount: 1
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: Tests
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestSuite
+    _parentName: C:/Users/Vladosek/Documents/TestWork/TestWork/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+    _testCaseCount: 2
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: Tests.voidTests
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestSuite
+    _parentName: Tests
+    _testCaseCount: 2
+    _foldOut: 1
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: Tests.voidTests.StartPageTests
+    _status: 1
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestFixture
+    _parentName: Tests.voidTests
+    _testCaseCount: 2
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: Tests.voidTests.StartPageTests.CorrectStartVoid
+    _status: 0
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: Tests.voidTests.StartPageTests
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: Assets/Editor/Tests/VoidTests/StartPageTests.cs
+    _testSelectedCount: 0
+  - _selected: 0
+    _testName: Tests.voidTests.StartPageTests.LoadMainMenu
+    _status: 0
+    _isSuite: 0
+    _type: NUnit.Framework.Internal.TestMethod
+    _parentName: Tests.voidTests.StartPageTests
+    _testCaseCount: 1
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: Assets/Editor/Tests/VoidTests/StartPageTests.cs
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: C:/Users/Vladosek/Documents/TestWork/TestWork/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestAssembly
+    _parentName: 
+    _testCaseCount: 0
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  - _selected: 1
+    _testName: C:/Users/Vladosek/Documents/TestWork/TestWork/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+    _status: 0
+    _isSuite: 1
+    _type: NUnit.Framework.Internal.TestAssembly
+    _parentName: 
+    _testCaseCount: 0
+    _foldOut: 0
+    _testResultMessage: 
+    _testStackTrace: 
+    _testDuration: 0
+    path: 
+    _testSelectedCount: 0
+  Scenes:
+  - _toBeBuilt: 1
+    _path: Assets/Scenes/Main.unity
+    _buildIndex: 0
+  - _toBeBuilt: 1
+    _path: Assets/Scenes/Shop.unity
+    _buildIndex: 1
+  - _toBeBuilt: 1
+    _path: Assets/Scenes/Start.unity
+    _buildIndex: 2
+  - _toBeBuilt: 1
+    _path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Basic.unity
+    _buildIndex: 3
+  - _toBeBuilt: 1
+    _path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard.unity
+    _buildIndex: 4
+  platform: 1
+  StandaloneTarget: 5
+  RanInEditor: 0
+  ScenePathDisplayed: 0
+  InputVisualizer: 1
+  ShowPopUp: 1
+  BuildLocationPath: 
+  LatestInspectorVersion: 1.5.0
+  ShowInsectorPopUpInEditor: 0
+  AltUnityTesterPort: 13000
+  KeepAUTSymbolDefined: 0
